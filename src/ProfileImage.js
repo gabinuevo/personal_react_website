@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Zoom from 'react-reveal/Zoom';
 
-import pic1 from './face_profile.jpeg'
+import pic1 from './standing_profile.jpeg'
 import './ProfileImage.css'
 
 class ProfileImage extends Component {

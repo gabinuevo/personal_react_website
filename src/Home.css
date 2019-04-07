@@ -46,13 +46,13 @@
 .Home h1 {
     font-size: 3.2em;
     text-align: left;
-    -webkit-text-stroke: 0.1px rgba(233, 178, 76, 0.678);;
+    /* -webkit-text-stroke: 0.1px rgba(73, 57, 26, 0.418); */
 }
 
 .Home h2 {
     font-size: 2.8em;
     text-align: left;
-    -webkit-text-stroke: 0.1px rgba(241, 182, 72, 0.678);;
+    /* -webkit-text-stroke: 0.1px rgba(73, 57, 26, 0.418); */
 }
 
 #scroll-pls {
@@ -71,9 +71,9 @@
 
 .Home a {
     text-decoration: none;
-    color: rgb(238, 255, 4);
+    color: rgb(186, 197, 27);
     border: 1px solid rgba(255, 166, 0, 0.678);
-    background-color: rgba(230, 174, 70, 0.678);
+    background-color: rgba(179, 135, 54, 0.678);
     padding: 0.25em 0.5em;
     padding: 4px 8px;
     margin: 0em 0.5em;
