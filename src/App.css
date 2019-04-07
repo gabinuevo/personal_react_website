@@ -1,13 +1,14 @@
 .App {
   /* text-align: center; */
   max-height: 100vh;
+  max-width: 60vw;
   padding: 2em;
 }
 
 * {
   background-size: auto;
   background-color: #273626;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
   font-family: 'PT Serif', serif;
 }
 

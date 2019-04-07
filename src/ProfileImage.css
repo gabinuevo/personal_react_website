@@ -1,0 +1,21 @@
+.ProfileImage img {
+    max-width: 30vw;
+    object-fit: contain;
+    border: 2px solid rgba(255, 166, 0, 0.678);
+    border-radius: 2px;
+}
+
+.ProfileImage img:hover {
+    box-shadow: 3px 3px 5px 0px rgba(255, 166, 0, 0.678);
+}
+
+.ProfileImage {
+    top: 10vh;
+    right: 17vw;
+    position: absolute;
+    max-width: 20vw;
+    max-height: 30vw;
+    object-fit: cover;
+    margin-left: 60vw;
+    z-index: 2;
+}

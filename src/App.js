@@ -12,7 +12,7 @@ class App extends Component {
         <img id="App-logo" src={logo}/>
 
         <Home/>
-        
+
       </div>
     );
   }
