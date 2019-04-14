@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.8.6",
+    "react-inview-monitor": "^2.2.1",
+    "react-mt-svg-lines": "^0.9.1",
     "react-reveal": "^1.2.2",
     "react-scripts": "2.1.8"
   },

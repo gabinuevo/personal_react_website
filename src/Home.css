@@ -46,40 +46,103 @@
 .Home h1 {
     font-size: 3.2em;
     text-align: left;
-    /* -webkit-text-stroke: 0.1px rgba(73, 57, 26, 0.418); */
 }
 
 .Home h2 {
     font-size: 2.8em;
     text-align: left;
-    /* -webkit-text-stroke: 0.1px rgba(73, 57, 26, 0.418); */
 }
 
 #scroll-pls {
     animation: scroll beat 1s infinite alternate;
     max-width: 9vw;
     align-content: center;
+    top: 80vh;
+    position: absolute;
+    float: center;
 }
 
 .Home h3 i {
     font-size: 2em;
     position: relative;
-    left: 2.5vw;
+    left: 2.1vw;
     padding: 0;
     margin: 0;
 }
 
 .Home a {
     text-decoration: none;
-    color: rgb(186, 197, 27);
-    border: 1px solid rgba(255, 166, 0, 0.678);
-    background-color: rgba(179, 135, 54, 0.678);
-    padding: 0.25em 0.5em;
-    padding: 4px 8px;
-    margin: 0em 0.5em;
-    border-radius: 1px
+    color: rgb(224, 218, 200);
+    font-size: 1.2em;
+    /* border: 1px solid rgba(255, 166, 0, 0.678); */
+    /* background-color: rgba(179, 135, 54, 0.678); */
+    /* padding: 0.25em 0.5em; */
+    /* padding: 4px 4px; */
+    margin: 0em 0em;
+    /* border-radius: 1px; */
+    z-index: 5;
+    text-decoration: underline dotted rgba(255, 166, 0, 0.678);
 }
 
 
+.svg-wrapper {
+    height: 3.5em;
+    display: inline-block;
+    /* align-items: center; */
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7.9em;
+    padding: 0;
+  }
 
+  svg {
+      height: 90%;
+      width: 92%;
+  }
 
+  rect {
+    position: relative;
+    height: 75%;
+    width: 330;
+    padding: 0;
+  }
+  
+  .shape {
+    /* fill: rgba(179, 135, 54, 0.678); */
+    fill: transparent;
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 2px;
+    stroke: rgba(255, 166, 0, 0.678);
+    
+  }
+  
+  .text {
+    display: flex;
+    width: 6.8em;
+    justify-content: center;
+    position: relative;
+    top: -48px;
+    padding: 0em;
+    margin: 0em 0em 0em 0.3em;
+    /* border-radius: 1px */
+  }
+  
+  @keyframes draw {
+    0% {
+      stroke-dasharray: 140 540;
+      stroke-dashoffset: -474;
+      stroke-width: 2px;
+    }
+    100% {
+      stroke-dasharray: 760;
+      stroke-dashoffset: 0;
+      stroke-width: 2px;
+    }
+  }
+  
+  .svg-wrapper:hover .shape {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }

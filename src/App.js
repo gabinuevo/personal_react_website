@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Home from './Home'
 import logo from './gold-G.png'
+import LinkToBlogs from './LinkToBlogs'
 import './App.css';
 
 class App extends Component {
@@ -12,6 +13,8 @@ class App extends Component {
         <img id="App-logo" src={logo}/>
 
         <Home/>
+
+        <LinkToBlogs/>
 
       </div>
     );
