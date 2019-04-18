@@ -1,0 +1,25 @@
+.BlogPost {
+    height: 20em;
+    width: 50vw;
+    /* background-color: white; */
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1em;
+    border-color: rgba(214, 159, 70, 0.781);
+}
+
+#paper {
+    background-color: #EAE2B7;
+    height: 20em;
+    width: 50vw;
+    border-radius: 3px;
+    color: #38260F;
+    text-transform: capitalize;
+}
+
+.BlogPost-title {
+    background-color: #EAE2B7;
+    margin-top: 0;
+    padding-left: 1em;
+    padding-top: 1em;
+}
