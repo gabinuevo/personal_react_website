@@ -6,6 +6,10 @@
  * Copyright (c) 2018 Daniel Eden
  */
 
+.vis-hidden {
+  visibility: hidden;
+}
+
 @-webkit-keyframes bounce {
   from,
   20%,

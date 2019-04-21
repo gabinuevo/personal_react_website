@@ -1,0 +1,8 @@
+.Label {
+  background-color: rgb(158, 118, 43);
+  padding: 0.25em 0.5em;
+  margin: 0.5em;
+  display: inline-block;
+  border: 1px solid rgba(255, 166, 0, 0.678); 
+  background-color: rgba(179, 135, 54, 0.678);
+}

@@ -1,5 +1,5 @@
 .Home {
-    color: rgb(228, 203, 121);
+    color: #d9b08c;
     letter-spacing: 0.1em;
     display: inline-block;
     justify-content: flex-start;
@@ -17,7 +17,10 @@
     position: relative;
     left: 40vw;
     top: 15vh;
+}
 
+#scroll-pls > h4 {
+    width: 8em;
 }
 
 .floating{
@@ -44,6 +47,7 @@
 }
 
 .Home h1 {
+    color: rgb(236, 229, 204);
     font-size: 3.2em;
     text-align: left;
 }
@@ -65,7 +69,7 @@
 .Home h3 i {
     font-size: 2em;
     position: relative;
-    left: 2.1vw;
+    left: 3.3vw;
     padding: 0;
     margin: 0;
 }

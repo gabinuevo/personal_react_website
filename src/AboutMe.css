@@ -1,0 +1,21 @@
+.AboutMe {
+  display: block;
+  text-align: justify;
+  top: 110vh;
+  width: 50vw;
+  right: 5vw;
+  position: absolute;
+  margin-right: 1em;
+  color: rgb(236, 229, 204);
+  margin-bottom: 3em;
+}
+
+
+.AboutMe p {
+  font-weight: lighter;
+}
+
+.AboutMe-labels {
+  display: inline-block;
+  text-align: center;
+}

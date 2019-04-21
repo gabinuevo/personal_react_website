@@ -19,7 +19,7 @@ class Home extends Component {
 					<div>
 						<h2>I build things for the internet</h2>
 					</div>
-					<div id="a-tags">
+					<div id="a-tags" className="animated bounceInUp">
 
 						<div class="svg-wrapper">
 							<svg xmlns="http://www.w3.org/2000/svg">
