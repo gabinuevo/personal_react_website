@@ -9,15 +9,17 @@ import './LinkToBlogs.css';
 
 class LinkToBlogs extends Component {
 	render() {
+		let blogs = [];
+		for (let key in blogInfo) {
+			blogs.unshift(<BlogPost blog={blogInfo[key]} />)
+		}
 		return (
 			<div className="LinkToBlogs">
 				<InViewMonitor classNameNotInView="vis-hidden"
 					classNameInView="animated fadeInUp">
 					<h1>Get in my mind</h1>
 				</InViewMonitor>
-					{/* <BlogPost />
-					<BlogPost /> */}
-					<BlogPost blog={blogInfo.blog1}/>
+					{blogs}
 			</div>
 		);
 	}

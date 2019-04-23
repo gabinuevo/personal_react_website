@@ -8,11 +8,21 @@
   margin-right: 1em;
   color: rgb(236, 229, 204);
   margin-bottom: 3em;
+  line-height: 1.4rem;
+}
+
+.AboutMe h3 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  /* font-family: 'Special Elite'; */
 }
 
 
 .AboutMe p {
-  font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .AboutMe-labels {

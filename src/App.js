@@ -11,8 +11,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <NavBar/> */}
-        <img id="App-logo" src={logo}/>
+        <NavBar/>
+        {/* <img id="App-logo" src={logo}/> */}
 
         <Home/>
 
