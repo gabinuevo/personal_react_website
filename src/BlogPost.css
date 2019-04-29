@@ -1,6 +1,6 @@
 .BlogPost {
-    height: 12em;
-    width: 50vw;
+    max-height: 30em;
+    max-width: 50vw;
     margin-bottom: 2em;
     border-radius: 5px;
     border-style: solid;
@@ -10,11 +10,12 @@
 
 #paper {
     background-color: rgb(248, 242, 210);
-    height: 12em;
-    width: 50vw;
+    max-height: 30em;
+    max-width: 50vw;
     border-radius: 3px;
     color: #38260F;
     opacity: 0.8;
+    padding: 1em 0em;
 }
 
 .BlogPost-title {
@@ -22,7 +23,6 @@
     text-transform: capitalize;
     margin-top: 0;
     padding-left: 1em;
-    padding-top: 1em;
     font-family: 'Special Elite', cursive;
 }
 

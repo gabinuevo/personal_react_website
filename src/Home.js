@@ -1,61 +1,53 @@
 import React, { Component } from 'react';
-// import Jump from 'react-reveal/Jump';
+import Typist from 'react-typist';
 
-import ProfileImage from './ProfileImage'
-import resume from './resume.pdf'
-import './Home.css'
+import ProfileImage from './ProfileImage';
+import resume from './resume.pdf';
+import './Home.css';
+import 'react-typist/dist/Typist.css';
 
 class Home extends Component {
-
 	render() {
 		return (
 			<div className="Home">
 				<div id="welcome">
+					<h5>
+						{/* <Typist> */}
+						Why hello there! My name is: 
+						{/* </Typist> */}
+						</h5>
 					<div>
-						<h5>Why hello there! My name is </h5>
+						<h1 className="Home-name">
+								Gabriela Balicas
+						</h1>
 					</div>
 					<div>
-						<h1>Gabriela Balicas</h1>
+						<h2 className="Home-purpose"> 
+							I build things for the internet.
+						</h2>
 					</div>
-					<div>
-						<h2>I build things for the internet</h2>
-					</div>
-					<div id="a-tags" className="animated bounceInUp">
+					<div id="a-tags" className="animated fadeIn">
 
 						{/* RESUME */}
-						<div class="svg-wrapper">
-							<svg xmlns="http://www.w3.org/2000/svg">
-								<rect class="shape" />
-							</svg>
-							<div class="text">
+						<div className="link-wrapper">
+							<div className="text">
 								<a href={resume} download="resume"> resume </a>
 							</div>
 						</div>
 
 						{/* EMAIL */}
-						<div class="svg-wrapper">
-							<svg xmlns="http://www.w3.org/2000/svg">
-								<rect class="shape" />
-							</svg>
-							<div class="text"><a href="mailto:balicas.gb@gmail.com">email</a></div>
-
+						<div className="link-wrapper">
+							<div className="text"><a href="mailto:balicas.gb@gmail.com">email</a></div>
 						</div>
 
 						{/* GITHUB */}
-						<div class="svg-wrapper">
-							<svg xmlns="http://www.w3.org/2000/svg">
-								<rect class="shape" />
-							</svg>
-							<div class="text"><a href="https://github.com/gabinuevo">github</a></div>
-
+						<div className="link-wrapper">
+							<div className="text"><a href="https://github.com/gabinuevo">github</a></div>
 						</div>
 
 						{/* LINKEDIN  */}
-						<div class="svg-wrapper">
-							<svg xmlns="http://www.w3.org/2000/svg">
-								<rect class="shape" />
-							</svg>
-							<div class="text"><a href="https://www.linkedin.com/in/gabriela-balicas-9091a1a0/">linkedin</a></div>
+						<div className="link-wrapper">
+							<div className="text"><a href="https://www.linkedin.com/in/gabriela-balicas-9091a1a0/">linkedin</a></div>
 
 						</div>
 					</div>
@@ -64,9 +56,7 @@ class Home extends Component {
 				<span>
 					<ProfileImage />
 				</span>
-				<div id="scroll-pls" >
-					<h3><i class="fas fa-chevron-circle-down floating"></i></h3>
-				</div>
+
 			</div>
 		);
 	}

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
 import Home from './Home'
-import logo from './gold-G.png'
+import MyProjects from './MyProjects'
 import LinkToBlogs from './LinkToBlogs'
+import logo from './grey-G.png'
 import AboutMe from './AboutMe'
 import NavBar from './NavBar'
 import './App.css';
@@ -11,15 +12,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar/>
-        {/* <img id="App-logo" src={logo}/> */}
+        {/* <NavBar /> */}
 
-        <Home/>
+        {/* <Home /> */}
 
-        <AboutMe/>
+        {/* <AboutMe /> */}
 
-        <LinkToBlogs/>
-
+        {/* <LinkToBlogs /> */}
+        <div className="top">
+          <a href="#welcome">
+            <img id="Navbar-logo" src={logo} />
+          </a>
+        </div>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 .LinkToBlogs {
-    top: 170vh;
-    position: absolute;
+    top: 40vh;
+    position: relative;
     margin-left: 3.5em;
     color: gainsboro;
 }
@@ -8,8 +8,25 @@
 .LinkToBlogs h1 {
     margin-bottom: 1em;
     margin-left: 1.5em;
-    /* font-family: 'Zeyada', cursive; */
+    width: 8.1em;
+}
+
+.typewriter {
+    white-space: nowrap;
+    overflow: hidden; 
     font-family: 'Special Elite', cursive;
+    border-right: solid 3px white;
+  animation: animated-text 2s steps(29,end) 1s 1 normal both,animated-cursor 1000ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+  from{width: 0em;}
+  to{width: 8.1em;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: white;}
+  to{border-right-color: transparent;}
 }
 
 /* *, *:before, *:after {

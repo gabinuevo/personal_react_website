@@ -8,7 +8,7 @@ class ProfileImage extends Component {
 		return (
 			<div className="ProfileImage animated fadeIn">
 				
-					<img src={pic1} data-src={pic1} id="profile-image" />
+					<img src={pic1} data-src={pic1} id="profile-image" alt=""/>
 				
 			</div>
 		);

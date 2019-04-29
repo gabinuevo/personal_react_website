@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import InViewMonitor from 'react-inview-monitor';
-import './animate.css'
+import './animate.css';
 import './BlogPost.css';
 
 

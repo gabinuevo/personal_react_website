@@ -1,0 +1,45 @@
+
+.svg-wrapper {
+  top: 50vh;
+  background:#BFBFC2;
+  position: relative;
+  height:470px;
+  transform: translateY(-50%);	
+  display:inline-block;
+  margin-right:30px;
+  margin-left:30px;
+  width: 300px;  
+}
+.svg { 
+  box-shadow: inset 0px 0px 0px 3px rgb(20,20,20); 
+}
+
+.shape {  
+  stroke-width: 2px;
+  fill: transparent;
+  stroke: #EAEAEA;
+  transition: fill .6s;
+}
+.one { stroke-dasharray: 470 300 470 300; stroke-dashoffset: 470; }
+.two { stroke-dasharray: 300 470 300 470; }
+.text {
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  line-height: 0px;
+  letter-spacing: 8px;
+  color: rgb(20,20,20);
+  top: -350px;
+  position: relative;
+  transition:color .6s;
+}
+.subtext {
+  color:#65626b;
+  text-transform:uppercase;
+  font-family:'Roboto Condensed';
+  top: -150px;
+  position: relative;
+  font-size:9px;
+  text-align:left;
+  margin-left:50px;
+}
+.first { margin-bottom:30px; }

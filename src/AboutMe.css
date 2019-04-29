@@ -1,22 +1,43 @@
 .AboutMe {
   display: block;
   text-align: justify;
-  top: 110vh;
-  width: 50vw;
-  right: 5vw;
-  position: absolute;
-  margin-right: 1em;
+  top: 25vh;
+  width: 60vw;
+  right: 8.5vw;
+  position: relative;
+  margin-left: 40vw;
   color: rgb(236, 229, 204);
   margin-bottom: 3em;
   line-height: 1.4rem;
 }
 
+.fadeInCustom{
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+  animation: 5s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity:0.33; }
+    66% { opacity:0.66; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity:0.33; }
+    66% { opacity:0.66; }
+    100% { opacity:1; }
+}
+
 .AboutMe h3 {
   display: flex;
   justify-content: center;
-  text-decoration: underline;
-  font-size: 1.5em;
-  /* font-family: 'Special Elite'; */
+  font-size: 2em;
+  line-height: 1.2em;
+  color: rgb(236, 229, 204);
+  border-bottom: 1px dashed currentColor;
+  letter-spacing: 0.02em;
 }
 
 

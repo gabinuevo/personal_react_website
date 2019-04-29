@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 
+import logo from './grey-G.png'
 import './NavBar.css'
 
 class NavBar extends Component {
 
-  
+
   render() {
     return (
       <div className="NavBar">
-        <div class="NavBar-Inner">
-            {/* <div class="top"><a href="#">Volker Otto</a></div> */}
-          <div class="NavBar-Bottom">
-            <Link to="AboutMe">ABOUT ME</Link>
-              <Link to="https://twitter.com/hellovolker">MY THOUGHTS</Link>
-            </div>
+        <div className="NavBar-Inner">
+          {/* <div class="top"><img id="Navbar-logo" src={logo} /></div> */}
+          <div className="NavBar-Bottom">
+            <a href="#AboutMe">ABOUT ME</a>
+            <p>|</p>
+            <a href="#LinkToBlogs">MY THOUGHTS</a>
+            <p>|</p>
+            {/* TODO */}
+            <a href="#LinkToBlogs">MY PROJECTS</a> 
           </div>
-        {/* <Link to="#AboutMe">About Me</Link> */}
+        </div>
       </div>
     );
   }

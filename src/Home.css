@@ -3,25 +3,60 @@
     letter-spacing: 0.1em;
     display: inline-block;
     justify-content: flex-start;
-    letter-spacing: 1.6px;
+    letter-spacing: 1.4px;
     text-align: left;
     padding: 32px;
-    margin: 0em 1.5em;
+    max-width: 50vw;
+    /* position: relative; */
+    margin: 1.5em 3.5em;
+}
+
+.Typist .Cursor {
+  display: inline-block; }
+  .Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+
+
+#a-tags {
+    position: relative;
+    top: 1vh;
+    width: 80vw;
+    -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
+}
+
+.Home-purpose, .Home-name {
+    max-width: 50vw;
+    /* word-wrap: normal; */
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    90% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    90% { opacity:0; }
+    100% { opacity:1; }
 }
 
 #welcome {
     margin-bottom: 1em;
+    max-width: 50vw;
 }
 
-#scroll-pls {
-    position: relative;
-    left: 40vw;
-    top: 15vh;
-}
-
-#scroll-pls > h4 {
-    width: 8em;
-}
 
 .floating{
 	animation-name: floating;
@@ -48,6 +83,7 @@
 
 .Home h1 {
     color: rgb(236, 229, 204);
+    max-width: 50vw;
     font-size: 4.7em;
     text-align: left;
     /* text-shadow: 1px 1px 1px rgb(207, 200, 176); */
@@ -55,7 +91,9 @@
 
 .Home h2 {
     font-size: 3.7em;
+    max-width: 50vw;
     text-align: left;
+    margin-bottom: 1em
     /* text-shadow: 1px 1px 1px #af8e70; */
 }
 
@@ -68,15 +106,8 @@
     float: center;
 }
 
-.Home h3 i {
-    font-size: 2em;
-    position: relative;
-    left: 3.3vw;
-    padding: 0;
-    margin: 0;
-}
 
-.Home a {
+.text a {
     text-decoration: none;
     color: rgb(224, 218, 200);
     font-size: 1.4em;
@@ -87,68 +118,21 @@
     margin: 0em 0em;
     /* border-radius: 1px; */
     z-index: 5;
+    position: relative;
     text-decoration: underline dotted rgba(255, 166, 0, 0.678);
 }
 
+.text a:hover {
+    font-style: italic;
+    text-decoration: underline rgba(255, 166, 0, 0.678);
+}
 
-.svg-wrapper {
-    height: 3.5em;
+
+.link-wrapper {
     display: inline-block;
-    /* align-items: center; */
     margin: 0 auto;
     top: 50%;
     transform: translateY(-50%);
     width: 7.9em;
     padding: 0;
-  }
-
-  svg {
-      height: 90%;
-      width: 92%;
-  }
-
-  rect {
-    position: relative;
-    height: 75%;
-    width: 330;
-    padding: 0;
-  }
-  
-  .shape {
-    /* fill: rgba(179, 135, 54, 0.678); */
-    fill: transparent;
-    stroke-dasharray: 140 540;
-    stroke-dashoffset: -474;
-    stroke-width: 2px;
-    stroke: rgba(255, 166, 0, 0.678);
-    
-  }
-  
-  .text {
-    display: flex;
-    width: 6.8em;
-    justify-content: center;
-    position: relative;
-    top: -48px;
-    padding: 0em;
-    margin: 0em 0em 0em 0.3em;
-    /* border-radius: 1px */
-  }
-  
-  @keyframes draw {
-    0% {
-      stroke-dasharray: 140 540;
-      stroke-dashoffset: -474;
-      stroke-width: 2px;
-    }
-    100% {
-      stroke-dasharray: 760;
-      stroke-dashoffset: 0;
-      stroke-width: 2px;
-    }
-  }
-  
-  .svg-wrapper:hover .shape {
-    -webkit-animation: 0.5s draw linear forwards;
-    animation: 0.5s draw linear forwards;
   }
