@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lazy-line-painter": "^1.9.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-inview-monitor": "^2.2.1",
-    "react-mt-svg-lines": "^0.9.1",
-    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
-    "react-typist": "^2.0.5"
+    "svg-react-loader": "^0.4.6",
+    "react-mt-svg-lines": "^0.9.1"
   },
   "scripts": {
     "start": "react-scripts start",

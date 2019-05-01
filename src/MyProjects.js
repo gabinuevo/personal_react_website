@@ -17,9 +17,9 @@ class MyProjects extends Component {
 							<div className="second">For practice</div>
 						</div>
 				</div>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+				{/* <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"> </script>
-				{/* <script src='./MyProjectsAnimation.js'> </script> */}
+				<script src='./MyProjectsAnimation.js'> </script> */}
 			</div>
 		);
 	}

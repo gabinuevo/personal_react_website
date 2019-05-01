@@ -6,8 +6,8 @@
 
 * {
   background-size: auto;
-  /* background-color: rgb(7, 6, 7);
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
+  background-color: rgb(7, 6, 7);
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
   font-family: 'Josefin Sans', sans-serif;
   scroll-behavior: smooth;
 }

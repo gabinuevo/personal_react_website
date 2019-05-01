@@ -7,8 +7,17 @@
     text-align: left;
     padding: 32px;
     max-width: 50vw;
-    /* position: relative; */
-    margin: 1.5em 3.5em;
+    position: relative;
+    margin: 1.5em 3.5em 0em 3.5em;
+}
+
+@media only screen and (min-width: 1500px) {
+  .Home {
+    margin: 20vh 3.5em 0em 3.5em;
+  }
+  .Home h1 {
+    font-size: 6.7em;
+}
 }
 
 .Typist .Cursor {

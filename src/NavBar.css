@@ -8,7 +8,6 @@
   width: 50px;
   border-right: 1px dashed rgba(187, 186, 186, 0.3);
   color: rgba(0, 0, 0, 0.5);
-  font-family: "nimbus-sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: .0875rem;
   font-size: 11px;
@@ -22,9 +21,11 @@
 }
 
 .NavBar-Bottom {
+  display: flex;
+  align-content: center;
   position: absolute;
   left: 0;
-  bottom: 15em;
+  bottom: 27vh;
   -webkit-transform: rotate(-90deg) perspective(1px);
           transform: rotate(-90deg) perspective(1px);
   -webkit-transform-origin: 50px 50px;
@@ -35,16 +36,26 @@
   word-spacing: .5rem;
 }
 
+@media only screen and (max-width: 1500px) {
+  .NavBar-Bottom {
+    bottom: 18vh;
+  }
+  .NavBar-Bottom a {
+    margin: 0em 2.5em !important;
+  }
+}
+
 .NavBar-Bottom p {
+  line-height: 2.5em;
   display: inline;
-  color: rgba(187, 186, 186, 0.3);
+  color: white;
 }
 
 .NavBar-Bottom a {
   color: rgba(187, 186, 186, 0.788);
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
-  margin: 0em 1em;
+  margin: 0em 4em;
   /* font-weight: bold; */
 }
 

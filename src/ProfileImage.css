@@ -17,15 +17,22 @@
     display: none;
   }
 }
+@media only screen and (min-width: 1500px) {
+ .ProfileImage img {
+    max-width: 27vw;
+  }
+  .ProfileImage {
+    top: 0em !important;
+    margin-left: 45vw !important;
+  }
+}
 
 .ProfileImage {
   display: inline;
-    top: 24vh;
-    right: 20vw;
-    position: absolute;
-    max-width: 20vw;
-    max-height: 37vh;
-    /* object-fit: cover; */
-    margin-left: 58vw;
-    z-index: 2;
+  position: absolute;  
+  max-width: 20vw;
+  max-height: 37vh;
+  top: 5em;
+  margin-left: 50vw;
+  z-index: 2;
 }
