@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import InViewMonitor from 'react-inview-monitor';
 
+import { typewriterSVG, deskSVG } from './SVGs';
+import SVGContainer from './SVGContainer';
 import BlogPost from './BlogPost';
 import { blogInfo } from './blogInfo';
-import './LinkToBlogs.css';
+import './styles/LinkToBlogs.css';
 
 class LinkToBlogs extends Component {
 	render() {
@@ -21,7 +23,12 @@ class LinkToBlogs extends Component {
 						Get in my mind.
 						</InViewMonitor>
 				</h1>
-				{blogs}
+				<div>
+					{blogs}
+				</div>
+				<div>
+					<SVGContainer identification="typewriter" svg={deskSVG} />
+				</div>
 			</div>
 		);
 	}

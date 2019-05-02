@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Typist from 'react-typist';
 
 import ProfileImage from './ProfileImage';
 import resume from './resume.pdf';
-import './Home.css';
-import 'react-typist/dist/Typist.css';
+import './styles/Home.css';
 
 class Home extends Component {
 	render() {
@@ -12,9 +10,7 @@ class Home extends Component {
 			<div className="Home">
 				<div id="welcome">
 					<h5>
-						{/* <Typist> */}
 						Why hello there! My name is: 
-						{/* </Typist> */}
 						</h5>
 					<div>
 						<h1 className="Home-name">

@@ -17,6 +17,13 @@
     width: 8.1em;
 }
 
+#typewriter {
+    position: absolute;
+    left: 94%;
+    top: 12vh;
+    opacity: 0.55;
+}
+
 .typewriter {
     white-space: nowrap;
     overflow: hidden; 

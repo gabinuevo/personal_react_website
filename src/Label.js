@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import InViewMonitor from 'react-inview-monitor';
 
-import './Label.css'
+import './styles/Label.css'
 
 class Label extends Component {
   render() {

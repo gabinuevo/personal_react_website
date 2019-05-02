@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import InViewMonitor from 'react-inview-monitor';
 
+import { californiaSVG } from './SVGs';
+import SVGContainer from './SVGContainer';
 import Label from './Label';
-import './AboutMe.css';
+import './styles/AboutMe.css';
 
 class AboutMe extends Component {
   static defaultProps = {
@@ -11,7 +13,13 @@ class AboutMe extends Component {
 
 
   render() {
-    const labels = this.props.tech.map((l) => <Label label={l} key={l}/>)
+    const labels = this.props.tech.map((l) => <Label label={l} key={l} />)
+    const style = {
+      width: "40%",
+      paddingBottom: "92%", 
+      height: "1px",
+      overflow: "visible"
+    }
     return (
       <InViewMonitor
         classNameNotInView="vis-hidden"
@@ -29,6 +37,9 @@ class AboutMe extends Component {
             {labels}
           </div>
         </div>
+
+          <SVGContainer identification="california" svg={californiaSVG} />
+
       </InViewMonitor >
     );
   }

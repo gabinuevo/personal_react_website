@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-// import *  as animations from './MyProjectsAnimation'
-import './MyProjects.css'
+import './styles/MyProjects.css'
 
 class MyProjects extends Component {
 	render() {

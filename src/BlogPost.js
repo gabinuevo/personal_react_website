@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import InViewMonitor from 'react-inview-monitor';
 import './animate.css';
-import './BlogPost.css';
+import './styles/BlogPost.css';
 
 
 class BlogPost extends Component {

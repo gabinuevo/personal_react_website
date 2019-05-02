@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import pic1 from './IMG_4688.JPG'
-import './ProfileImage.css'
+import './styles/ProfileImage.css'
 
 class ProfileImage extends Component {
 	render() {
