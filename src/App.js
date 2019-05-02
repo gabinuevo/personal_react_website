@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Home from './Home'
+import MyProjects from './MyProjects'
 import LinkToBlogs from './LinkToBlogs'
 import logo from './grey-G.png'
 import AboutMe from './AboutMe'
@@ -13,7 +14,6 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-
         <Home />
 
         <AboutMe />
@@ -25,6 +25,7 @@ class App extends Component {
             <img id="Navbar-logo" src={logo} alt="logo"/>
           </a>
         </div>
+        <MyProjects/>
       </div>
     );
   }
