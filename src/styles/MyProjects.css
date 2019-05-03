@@ -1,34 +1,24 @@
 
-.MyProjects {
-  width: 100vw;
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
-.wrapper {
-  cursor: pointer;
-  width: 30vw;
-  height: 20vw;
-  position: relative;
-  top: 24vh;
-  margin: 20vh 1vw 20vh 8vw;
+.MyProjects-Projects {
+  width: 85vw;
+  margin: auto 0 auto 5vw;
+  border: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .MyProjects h1 {
-  position: relative;
-  top: 33vh;
-  margin: 30vh 45vw;
-  width: 100%;
-  color: white;
+  margin: 20vh 38vw 6vh 42vw !important;
+  width: 20vw !important;
 }
 
-.Project-Info {
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background-color: purple;
-  position: relative;
+.Project {
+  top:0vh;
+  font-family: 'Roboto Mono', monospace;
 }
+
+
+
 svg {
   display: block;
   position: absolute;
@@ -65,40 +55,6 @@ svg {
     stroke-dashoffset: 2000;
   }
 }
-/* .svg { 
-  box-shadow: inset 0px 0px 0px 3px rgb(20,20,20); 
-}
-
-.shape {  
-  stroke-width: 2px;
-  fill: transparent;
-  stroke: #EAEAEA;
-  transition: fill .6s;
-}
-.one { stroke-dasharray: 470 300 470 300; stroke-dashoffset: 470; }
-.two { stroke-dasharray: 300 470 300 470; }
-.text {
-  text-align: center;
-  font-family: 'Roboto Condensed';
-  font-size: 22px;
-  line-height: 0px;
-  letter-spacing: 8px;
-  color: rgb(20,20,20);
-  top: -350px;
-  position: relative;
-  transition:color .6s;
-}
-.subtext {
-  color:#65626b;
-  text-transform:uppercase;
-  font-family:'Roboto Condensed';
-  top: -150px;
-  position: relative;
-  font-size:9px;
-  text-align:left;
-  margin-left:50px;
-}
-.first { margin-bottom:30px; } */
 
 
 @keyframes acidTrip {

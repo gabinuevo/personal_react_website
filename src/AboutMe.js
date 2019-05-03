@@ -16,7 +16,7 @@ class AboutMe extends Component {
     const labels = this.props.tech.map((l) => <Label label={l} key={l} />)
     const style = {
       width: "40%",
-      paddingBottom: "92%", 
+      paddingBottom: "92%",
       height: "1px",
       overflow: "visible"
     }
@@ -25,11 +25,15 @@ class AboutMe extends Component {
         classNameNotInView="vis-hidden"
         classNameInView="animated fadeIn">
         <div className="AboutMe" id="AboutMe" ref={this.ref}>
-          <h3> I'm a react developer based out of San Francisco </h3>
+          <h3> I'm a React Developer based out of San Francisco </h3>
           <p>
-            Currently, I am finishing up a full-stack web development bootcamp at Rithm school. Post-graduation, I am looking to join a company as an apprentice engineer.
-
-            Outside of coding, I spend much of my time around all things weightlifting. A recently retired athlete, I spend much of my free time helping coach the next generation of American weightlifters. Otherwise, I love to write movie scripts that I wish had existed when I was a child.
+            I am passionate about building things that reside on the web. I am passionate about developping apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+          </p>
+          <p>
+            I graduated from Rice University with a degree in Sports Medicine. After working for a year and a half, I realized that it wasn't the field for me, and so I made the decision to go to Rithm School to pursue a career that more closely mirrors my interests.
+          </p>
+          <p>
+            Outside of coding, I spend much of my time around all things weightlifting. A recently retired athlete, I spend much of my free time helping coach the next generation of American weightlifters. Otherwise, I write movie scripts that I wish had existed when I was a child.
 
             Below are a few technologies that I have been working with on my recent projects.
         </p>
@@ -38,7 +42,7 @@ class AboutMe extends Component {
           </div>
         </div>
 
-          <SVGContainer identification="california" svg={californiaSVG} />
+        <SVGContainer identification="california" svg={californiaSVG} />
 
       </InViewMonitor >
     );

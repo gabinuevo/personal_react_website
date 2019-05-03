@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-import './styles/MyProjects.css'
+import './styles/MyProjects.css';
 
-import pic1 from './IMG_4688.JPG';
-import Project from './Project'
+import { projectInfo } from './ProjectInfo';
+import Project from './Project';
 
 class MyProjects extends Component {
 	render() {
+		const projects = Object.values(projectInfo)
+			.map((p) => <Project p={p} />)
+			
 		return (
 			<div className="MyProjects">
 				<h1>My Projects</h1>
-				<Project image={pic1}/>
-				<Project image={pic1}/>
-				<Project image={pic1}/>
+				<div className="MyProjects-Projects">
+					{projects}
+				</div>
 			</div>
 		);
 	}
