@@ -13,6 +13,19 @@
   .AboutMe {
     margin-top: 10em;
   }
+  
+}
+
+@media only screen and (max-width: 450px) {
+  .AboutMe {
+    margin: 22em 0vw auto 18vw !important;
+    width: 97vw;
+  }
+  .AboutMe h3 {
+    letter-spacing: 0 !important;
+    font-size: 1.6em !important;
+    text-align: center !important;
+  }
 }
 
 .fadeInCustom{
@@ -49,5 +62,4 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
 }

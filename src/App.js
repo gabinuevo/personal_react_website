@@ -18,14 +18,14 @@ class App extends Component {
 
         <AboutMe />
 
-        <LinkToBlogs />
+        <MyProjects />
 
         <div className="top">
           <a href="#welcome">
             <img id="Navbar-logo" src={logo} alt="logo"/>
           </a>
         </div>
-        <MyProjects/>
+        <LinkToBlogs />
       </div>
     );
   }

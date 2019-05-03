@@ -7,11 +7,11 @@ import Project from './Project';
 class MyProjects extends Component {
 	render() {
 		const projects = Object.values(projectInfo)
-			.map((p) => <Project p={p} />)
+			.map((p) => <Project p={p} key={p.title}/>)
 			
 		return (
-			<div className="MyProjects">
-				<h1>My Projects</h1>
+			<div className="MyProjects" id="MyProjects">
+				<h1 className="acidTrip">My Projects</h1>
 				<div className="MyProjects-Projects">
 					{projects}
 				</div>

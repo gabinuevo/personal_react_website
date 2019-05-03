@@ -1,6 +1,7 @@
 
 
 .Project-Info h3 {
+  font-size: 1.2em;
   color: #38260F;
   background-color: rgb(248, 242, 210);
   font-family: 'Roboto Mono', monospace;
@@ -8,8 +9,30 @@
   display: flex;
   justify-content: space-around;
   font-weight: 300;
+  text-decoration: double underline;
 }
 
+@media only screen and (min-width: 1800px) {
+  .Project-Info h3 {
+    font-size: 2em;
+  }
+  .Project-Info p {
+    font-size: 1.5em;
+  }
+  .Project-Info a {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+    
+}
+
+
+.Project {
+  top:0vh;
+  font-family: 'Roboto Mono', monospace;
+}
 
 .Project-Info p {
   color: #38260F;
@@ -19,6 +42,7 @@
   display: flex;
   justify-content: space-around;
   font-weight: 500 !important;
+  text-align: center;
 }
 
 .Project-Info p:hover {
@@ -35,6 +59,7 @@
   display: flex;
   justify-content: space-around;
   font-weight: 300;
+  text-decoration: dotted underline;
 }
 
 .Project-Info a:hover {

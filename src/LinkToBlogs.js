@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import InViewMonitor from 'react-inview-monitor';
 
-import { typewriterSVG, deskSVG } from './SVGs';
+import { deskSVG } from './SVGs';
 import SVGContainer from './SVGContainer';
 import BlogPost from './BlogPost';
 import { blogInfo } from './blogInfo';

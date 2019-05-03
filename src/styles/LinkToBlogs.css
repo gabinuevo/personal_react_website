@@ -1,5 +1,5 @@
 .LinkToBlogs {
-    top: 33vh;
+    top: 48vh;
     position: relative;
     margin-left: 4.7em;
     color: gainsboro;
@@ -11,8 +11,24 @@
   }
 }
 
+@media only screen and (min-width: 1800px) {
+  .LinkToBlogs {
+    top: 30vh;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+    .LinkToBlogs {
+      top: 78vh;
+      margin-left: 1.6em;
+    } .LinkToBlogs h1 {
+      margin-bottom: 1em !important;
+      margin-left: 0.6em !important;
+    }
+}
+
 .LinkToBlogs h1 {
-    margin-bottom: 1em;
+    margin-bottom: 3.5em;
     margin-left: 1.5em;
     width: 8.1em;
 }
@@ -42,142 +58,3 @@
   from{border-right-color: transparent;}
   to{border-right-color: white;}
 }
-
-/* *, *:before, *:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body {
-    background: #cfcfcf;
-}
-.base-triangle {
-    overflow: visible;
-    z-index: -1000;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-}
-.base-triangle symbol {
-    overflow: visible;
-}
-.base-triangle path {
-    fill: none;
-    stroke: #fe0000;
-    stroke-width: 8px;
-    vector-effect: non-scaling-stroke;
-}
-.triangles-cont {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 204px;
-    height: 204px;
-    margin-left: -102px;
-    margin-top: -102px;
-    perspective: 1000px;
-}
-.triangle {
-    overflow: visible;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform-origin: 50% 50%;
-}
-.triangle:nth-child(1) {
-    width: 204px;
-    height: 204px;
-    margin-left: -102px;
-    margin-top: -102px;
-    animation: triangleRotation 4s 0.0923076923s infinite ease-out;
-}
-.triangle:nth-child(2) {
-    width: 188px;
-    height: 188px;
-    margin-left: -94px;
-    margin-top: -94px;
-    animation: triangleRotation 4s 0.1846153846s infinite ease-out;
-}
-.triangle:nth-child(3) {
-    width: 172px;
-    height: 172px;
-    margin-left: -86px;
-    margin-top: -86px;
-    animation: triangleRotation 4s 0.2769230769s infinite ease-out;
-}
-.triangle:nth-child(4) {
-    width: 156px;
-    height: 156px;
-    margin-left: -78px;
-    margin-top: -78px;
-    animation: triangleRotation 4s 0.3692307692s infinite ease-out;
-}
-.triangle:nth-child(5) {
-    width: 140px;
-    height: 140px;
-    margin-left: -70px;
-    margin-top: -70px;
-    animation: triangleRotation 4s 0.4615384615s infinite ease-out;
-}
-.triangle:nth-child(6) {
-    width: 124px;
-    height: 124px;
-    margin-left: -62px;
-    margin-top: -62px;
-    animation: triangleRotation 4s 0.5538461538s infinite ease-out;
-}
-.triangle:nth-child(7) {
-    width: 108px;
-    height: 108px;
-    margin-left: -54px;
-    margin-top: -54px;
-    animation: triangleRotation 4s 0.6461538462s infinite ease-out;
-}
-.triangle:nth-child(8) {
-    width: 92px;
-    height: 92px;
-    margin-left: -46px;
-    margin-top: -46px;
-    animation: triangleRotation 4s 0.7384615385s infinite ease-out;
-}
-.triangle:nth-child(9) {
-    width: 76px;
-    height: 76px;
-    margin-left: -38px;
-    margin-top: -38px;
-    animation: triangleRotation 4s 0.8307692308s infinite ease-out;
-}
-.triangle:nth-child(10) {
-    width: 60px;
-    height: 60px;
-    margin-left: -30px;
-    margin-top: -30px;
-    animation: triangleRotation 4s 0.9230769231s infinite ease-out;
-}
-.triangle:nth-child(11) {
-    width: 44px;
-    height: 44px;
-    margin-left: -22px;
-    margin-top: -22px;
-    animation: triangleRotation 4s 1.0153846154s infinite ease-out;
-}
-.triangle:nth-child(12) {
-    width: 28px;
-    height: 28px;
-    margin-left: -14px;
-    margin-top: -14px;
-    animation: triangleRotation 4s 1.1076923077s infinite ease-out;
-}
-.triangle:nth-child(13) {
-    width: 12px;
-    height: 12px;
-    margin-left: -6px;
-    margin-top: -6px;
-    animation: triangleRotation 4s 1.2s infinite ease-out;
-}
-@keyframes triangleRotation {
-    70%, 100% {
-        transform: rotateX(-360deg);
-   }
-} */ 

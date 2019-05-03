@@ -1,19 +1,34 @@
 
 .MyProjects-Projects {
   width: 85vw;
-  margin: auto 0 auto 5vw;
-  border: 0;
+  margin: 0 0 auto 5vw;
   display: flex;
   justify-content: center;
 }
 
 .MyProjects h1 {
-  margin: 20vh 38vw 6vh 42vw !important;
+  margin: 0vh 38vw 6vh 42vw !important;
   width: 20vw !important;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 450px) {
+    .MyProjects-Projects {
+      display: block
+    }
+}
+
+.MyProjects h1:hover .MyProjects-Projects > .Project-Info {
+  color: inherit;
+}
+
+.MyProjects h1:hover .Project-Info:hover {
+  color: blue;
 }
 
 .Project {
   top:0vh;
+  margin: 0 15vw 15vh;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -57,6 +72,7 @@ svg {
 }
 
 
+
 @keyframes acidTrip {
   from {
     filter: hue-rotate(0deg);
@@ -69,7 +85,7 @@ svg {
   }
 }
 
-.acidTrip {
+.acidTrip:hover {
   animation-name: acidTrip;
   color: red;
   background-image: linear-gradient(50deg, purple, orange);

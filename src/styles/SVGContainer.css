@@ -3,3 +3,17 @@
   top: 44em;
   position: absolute;
 }
+
+
+@media only screen and (max-width: 430px) {
+  .SVGContainer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .SVGContainer {
+    top: 85em;
+    margin-left: 10vw;
+  }
+}

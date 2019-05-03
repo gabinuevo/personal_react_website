@@ -13,7 +13,7 @@ class Home extends Component {
 						Why hello there! My name is: 
 						</h5>
 					<div>
-						<h1 className="Home-name">
+						<h1>
 								Gabriela Balicas
 						</h1>
 					</div>
@@ -43,7 +43,7 @@ class Home extends Component {
 
 						{/* LINKEDIN  */}
 						<div className="link-wrapper">
-							<div className="text"><a href="https://www.linkedin.com/in/gabriela-balicas-9091a1a0/">linkedin</a></div>
+							<div className="text"><a href="https://www.linkedin.com/in/gabriela-balicas">linkedin</a></div>
 
 						</div>
 					</div>

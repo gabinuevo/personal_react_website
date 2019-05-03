@@ -14,18 +14,13 @@ class AboutMe extends Component {
 
   render() {
     const labels = this.props.tech.map((l) => <Label label={l} key={l} />)
-    const style = {
-      width: "40%",
-      paddingBottom: "92%",
-      height: "1px",
-      overflow: "visible"
-    }
+
     return (
       <InViewMonitor
         classNameNotInView="vis-hidden"
         classNameInView="animated fadeIn">
         <div className="AboutMe" id="AboutMe" ref={this.ref}>
-          <h3> I'm a React Developer based out of San Francisco </h3>
+          <h3> I am a React Developer based out of San Francisco </h3>
           <p>
             I am passionate about building things that reside on the web. I am passionate about developping apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
           </p>

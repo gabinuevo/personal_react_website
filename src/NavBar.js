@@ -13,8 +13,7 @@ class NavBar extends Component {
             <p>|</p>
             <a href="#LinkToBlogs">MY THOUGHTS</a>
             <p>|</p>
-            {/* TODO */}
-            <a href="#LinkToBlogs">MY PROJECTS</a> 
+            <a href="#MyProjects">MY PROJECTS</a> 
           </div>
         </div>
       </div>
