@@ -24,8 +24,17 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .top {
+    z-index: 3;
+    width: 2em !important;
+    left: 0em !important;
+    top: 94vh !important;
+  }
   #Navbar-logo {
-    display: none;
+    width: 2em !important;
+    max-width: 2em !important;
+    left: 0em !important;
+    top: 110vh !important;
   }
 }
 

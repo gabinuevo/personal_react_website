@@ -7,7 +7,7 @@ export const blogInfo = {
   },
   blog2: {
     title: "First week of company projects",
-    description: "--The big lesson from a week of working on a real codebase",
+    description: "--The big lesson from a week of working a codebase used in a corporate setting",
     intro: "Last week was the first week where everything that I worked on was for a company codebase. [...] I had my first pull request approved, which increased the speed of the several pages in the application by 90%.",
     link: "https://medium.com/@balicas.gb/first-week-of-company-projects-49c258ad62ef"
   }

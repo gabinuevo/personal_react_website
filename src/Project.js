@@ -18,7 +18,7 @@ class Project extends Component {
               <h3>{title}</h3>
               <p>{description}</p>
               <p>{technologies}</p>
-              <a href={link}>{link && "Link"}</a>
+              <a href={link}>{link && "Demo"}</a>
               <a href={github}>Github</a>
             </div>
 

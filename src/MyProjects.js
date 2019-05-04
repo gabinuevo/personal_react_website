@@ -7,15 +7,17 @@ import Project from './Project';
 class MyProjects extends Component {
 	render() {
 		const projects = Object.values(projectInfo)
-			.map((p) => <Project p={p} key={p.title}/>)
-			
+			.map((p) => <Project p={p} key={p.title} />)
+
 		return (
 			<div className="MyProjects" id="MyProjects">
-				<h1 className="acidTrip">My Projects</h1>
-				<div className="MyProjects-Projects">
-					{projects}
+
+					<h1 className="acidTrip">My Projects</h1>
+
+					<div className="MyProjects-Projects">
+						{projects}
+					</div>
 				</div>
-			</div>
 		);
 	}
 }

@@ -25,12 +25,30 @@
 }
 
 @media only screen and (max-width: 450px) {
-    
+  .Project {
+    display: block !important;
+    width: 70vw !important;
+    height: 80vh !important;
+    max-height: 100vh !important;
+    margin: 5vh 0vw 0vh 12vw !important;
+  } 
+  .Project-Info {
+    height: 50vh !important;
+  }
+  .wrapper {
+    width: 70vw !important;
+    height: 50vh !important;
+    margin: 14vh 0vw 24vh 0vw !important;
+  }
+  .Project-Info h3 {
+    font-size: 1.8em;
+  }
 }
 
 
 .Project {
   top:0vh;
+  max-height: 60vh;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -58,7 +76,7 @@
   padding: 1vh 3vw;
   display: flex;
   justify-content: space-around;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: dotted underline;
 }
 
@@ -69,7 +87,8 @@
 
 .wrapper {
   width: 25vw;
-  height: 20vw;
+  height: 23vw;
+  max-height: 60vh;
   position: relative;
   top: 24vh;
   margin: 20vh 0vw 20vh 4vw;

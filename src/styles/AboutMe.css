@@ -19,7 +19,7 @@
 @media only screen and (max-width: 450px) {
   .AboutMe {
     margin: 22em 0vw auto 18vw !important;
-    width: 97vw;
+    width: 80vw;
   }
   .AboutMe h3 {
     letter-spacing: 0 !important;

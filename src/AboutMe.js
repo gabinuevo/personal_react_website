@@ -22,7 +22,7 @@ class AboutMe extends Component {
         <div className="AboutMe" id="AboutMe" ref={this.ref}>
           <h3> I am a React Developer based out of San Francisco </h3>
           <p>
-            I am passionate about building things that reside on the web. I am passionate about developping apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+            I am passionate about building things that reside on the web. At any given time, I am probably thinking of apps that provide intuitive and beautiful user interfaces with fast and efficient backends.
           </p>
           <p>
             I graduated from Rice University with a degree in Sports Medicine. After working for a year and a half, I realized that it wasn't the field for me, and so I made the decision to go to Rithm School to pursue a career that more closely mirrors my interests.

@@ -19,8 +19,9 @@
 
 @media only screen and (max-width: 450px) {
     .LinkToBlogs {
-      top: 78vh;
-      margin-left: 1.6em;
+      top: 35vh;
+      margin-left: 1.8em;
+      width: 70vw !important;
     } .LinkToBlogs h1 {
       margin-bottom: 1em !important;
       margin-left: 0.6em !important;

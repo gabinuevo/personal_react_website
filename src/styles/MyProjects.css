@@ -16,6 +16,10 @@
     .MyProjects-Projects {
       display: block
     }
+    .MyProjects h1 {
+      width: 60vw !important;
+      margin: 0vh 38vw 0vh 28vw !important;
+    }
 }
 
 .MyProjects h1:hover .MyProjects-Projects > .Project-Info {

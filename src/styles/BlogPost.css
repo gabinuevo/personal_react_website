@@ -11,13 +11,13 @@
 @media only screen and (max-width: 450px) {
   .BlogPost {
     max-height: 100vh;
-    width: 75vw !important;
-    max-width: 75vw;
+    width: 80vw !important;
+    max-width: 100vw;
     margin-right: 0;
   }
   #paper {
-    width: 100vw !important;
-    max-width: 75vw !important;
+    width: 80vw !important;
+    max-width: 90vw !important;
     margin: 0 !important;
   }
   .BlogPost-description, .BlogPost-intro {
