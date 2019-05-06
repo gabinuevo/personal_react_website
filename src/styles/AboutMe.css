@@ -28,6 +28,18 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .AboutMe {
+    margin: 42em 0vw auto 15vw !important;
+    width: 82vw;
+  }
+  .AboutMe h3 {
+    letter-spacing: 0 !important;
+    font-size: 1.6em !important;
+    text-align: center !important;
+  }
+}
+
 .fadeInCustom{
   -webkit-animation: 5s ease 0s normal forwards 1 fadein;
   animation: 5s ease 0s normal forwards 1 fadein;

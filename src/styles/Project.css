@@ -45,6 +45,31 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .Project {
+    display: block !important;
+    width: 70vw !important;
+    height: 65vh !important;
+    max-height: 100vh !important;
+    margin: 5vh 0vw 0vh 10vw !important;
+  } 
+  .Project-Info {
+    height: 48vh !important;
+  }
+  .wrapper {
+    width: 70vw !important;
+    height: 48vh !important;
+    margin: 14vh 0vw 18vh 0vw !important;
+  }
+  .Project-Info h3 {
+    font-size: 1.4em;
+  }
+
+  .fadeIn {
+    width: 60vw !important;
+  }
+}
+
 
 .Project {
   top:0vh;

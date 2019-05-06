@@ -38,6 +38,24 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .top {
+    z-index: 3;
+    position: fixed;
+    opacity: 1 !important;
+    width: 1.5em !important;
+    left: 0em !important;
+    top: 90vh !important;
+  }
+  #Navbar-logo {
+    width: 1.7em !important;
+    left: 0em !important;
+  } 
+  .App {
+    width: 20vw !important;
+  }
+}
+
 @keyframes App-logo-beat {
   to { transform: scale(1.1); }
 }
