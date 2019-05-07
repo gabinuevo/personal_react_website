@@ -96,6 +96,12 @@
     }
 }
 
+@media only screen and (max-width: 768px) and (min-width: 377px) {
+  .Home {
+      top: 12vh !important;
+  }
+}
+
 .Typist .Cursor {
   display: inline-block; 
 }

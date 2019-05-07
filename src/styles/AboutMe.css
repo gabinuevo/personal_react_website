@@ -28,6 +28,18 @@
   }
 }
 
+@media only screen and (max-width: 768px) and (min-width: 377px) {
+  .AboutMe {
+    margin: 28em 0vw auto 16vw !important;
+    width: 80vw;
+  }
+  .AboutMe h3 {
+    letter-spacing: 0 !important;
+    font-size: 1.6em !important;
+    text-align: center !important;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .AboutMe {
     margin: 42em 0vw auto 15vw !important;

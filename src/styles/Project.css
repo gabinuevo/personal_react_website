@@ -66,7 +66,32 @@
   }
 
   .fadeIn {
+    height: 3vh !important;
     width: 60vw !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 377px) {
+  .Project {
+    display: block !important;
+    width: 60vw !important;
+    height: 40vh !important;
+    max-height: 100vh !important;
+    margin: 5vh 0vw 30vh 6vw !important;
+  } 
+  .wrapper {
+    width: 50vw !important;
+    height: 40vh !important;
+    margin: 14vh 0vw 24vh 0vw !important;
+  }
+  .Project-Info h3 {
+    font-size: 2em;
+  }
+  .Project-Info p {
+    font-size: 1.4em;
+  }
+  .Project-Info a {
+    font-size: 1.4em;
   }
 }
 

@@ -66,6 +66,13 @@
     }
 }
 
+@media only screen and (max-width: 768px) and (min-width: 377px) {
+  .NavBar-Bottom {
+    bottom: 26vh !important;
+    font-weight: 900 !important;
+  }
+}
+
 @media only screen and (max-width: 1500px) {
   .NavBar-Bottom {
     bottom: 18vh;
