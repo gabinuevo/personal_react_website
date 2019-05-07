@@ -52,16 +52,16 @@
     overflow: hidden; 
     font-family: 'Special Elite', cursive;
     border-right: solid 3px white;
-    animation: animated-text 2s steps(29,end) 1s 1 normal both,animated-cursor 1000ms steps(29,end) infinite;
+    animation: typewriter-text 2s steps(29,end) 1s 1 normal both,typewriter-cursor 1000ms steps(29,end) infinite;
     animation-iteration-count: 1;
 }
 
-@keyframes animated-text{
+@keyframes typewriter-text{
   from{width: 0em;}
   to{width: 8.1em;}
 }
 
-@keyframes animated-cursor{
+@keyframes typewriter-cursor{
   from{border-right-color: transparent;}
   to{border-right-color: white;}
 }
