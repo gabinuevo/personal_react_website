@@ -42,7 +42,7 @@
 
 @media only screen and (max-width: 375px) {
   .AboutMe {
-    margin: 47em 0vw auto 15vw !important;
+    margin: 4em 0vw auto 15vw !important;
     width: 82vw;
   }
   .AboutMe h3 {
@@ -72,8 +72,7 @@
 }
 
 .AboutMe h3 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-size: 2em;
   line-height: 1.2em;
   color: rgb(236, 229, 204);
