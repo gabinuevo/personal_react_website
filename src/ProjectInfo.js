@@ -16,7 +16,7 @@ export const projectInfo = {
   proj3: {
     title: "Flower Puzzle",
     description: `A spin on the classic game “Light’s Out”. Gauranteed winnable.`,
-    technologies: "Built with React and CSS.",
+    technologies: "Built with React and vanilla CSS.",
     link: "https://gabinuevo.github.io/flower-puzzle/",
     github: "https://gabinuevo.github.io/flower-puzzle/"
   }
