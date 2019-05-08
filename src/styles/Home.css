@@ -81,11 +81,11 @@
     }
 }
 
- @media only screen and (max-width: 375px) {
+ @media only screen and (min-width: 375px) and (max-width: 415px){
     .Home {
         top: 10vh !important;
         width: 80vw !important;
-        margin: 10vh 0em 0em 0.3em !important;
+        margin: 10vh 0em 0em 0.9em !important;
         -webkit-align-content: center;
                 align-content: center;
     }

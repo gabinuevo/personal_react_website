@@ -26,10 +26,10 @@
 }
 
 
-@media only screen and (max-width: 376px) {
+@media only screen and (min-width: 375px) and (max-width: 415px) {
     .ProfileImage img {
       width: 70vw !important;
-      max-width: 90vw !important;
+      max-width: 88vw !important;
   }
   .ProfileImage {
       display: block;
