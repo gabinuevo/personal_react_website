@@ -28,7 +28,7 @@
   }
 }
 
-@media only screen and (min-width: 450px) and (max-width: 1414px) {
+@media only screen and (min-width: 450px) and (max-width: 1414px) and (min-height: 800px){
   .Project-Info h3 {
     font-size: 1.5em;
   }
@@ -71,14 +71,14 @@
     width: 70vw !important;
     height: 65vh !important;
     max-height: 100vh !important;
-    margin: 5vh 0vw 0vh 10vw !important;
+    margin: 5vh 0vw 18vh 10vw !important;
   } 
   .Project-Info {
-    height: 48vh !important;
+    height: 55vh !important;
   }
   .wrapper {
     width: 70vw !important;
-    height: 48vh !important;
+    height: 55vh !important;
     margin: 14vh 0vw 18vh 0vw !important;
   }
   .Project-Info h3 {

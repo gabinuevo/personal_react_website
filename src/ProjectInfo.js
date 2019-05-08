@@ -1,7 +1,7 @@
 export const projectInfo = {
   proj1: {
     title: "Tune In",
-    description: "A content management system for The Relish SF.",
+    description: "A brand new feature for The Relish's content management system.",
     technologies: "Built with React, Material UI, and Firebase.",
     link: "https://www.youtube.com/watch?v=R_sNOr_X3LY&feature=youtu.be",
     github: null
