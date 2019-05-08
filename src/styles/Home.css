@@ -1,3 +1,5 @@
+
+
 .Home {
     color: #d9b08c;
     letter-spacing: 1.4px;
@@ -7,22 +9,47 @@
     margin: 1.5em 3.5em 0em 3.5em;
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1550px) and (max-width: 1749px) {
+    .Home {
+        top: 6.8vh !important;
+        font-size: 1.4em;
+        word-wrap: wrap;
+        max-width: 55vw;
+        margin: 5.8em 3.5em 0em 5.5em;
+    }
     .Home h1 {
-        font-size: 6.7em;
+        font-size: 8vh !important;
+    }
+    .Home h2 {
+        font-size: 5vh !important;
+    }
+    .Home h5 {
+        font-size: 1.5em !important;
+        width: 80vw !important;
     }
 }
 
-@media only screen and (min-width: 1800px) {
-  .Home {
-    font-size: 1.4em;
-    word-wrap: wrap;
-    max-width: 55vw;
-    margin: 5.8em 3.5em 0em 5.5em;
-  }
+@media only screen and (min-width: 1750px) {
+    .Home {
+        top: 6.8vh !important;
+        font-size: 1.4em;
+        word-wrap: wrap;
+        max-width: 55vw;
+        margin: 5.8em 3.5em 0em 5.5em;
+    }
+    .Home h1 {
+        font-size: 10vh !important;
+    }
+    .Home h2 {
+        font-size: 6vh !important;
+    }
+    .Home h5 {
+        font-size: 1.5em !important;
+        width: 80vw !important;
+    }
 }
 
-@media only screen and (max-width: 450px) {
+ @media only screen and (max-width: 450px) {
     .Home {
         top: 6vh !important;
         width: 80vw !important;
@@ -31,35 +58,36 @@
         padding: 0px;
         letter-spacing: 0em;
     }
-    .Home h1 {
+     .Home h1 {
         font-size: 4em !important;
     }
-    .Home h2 {
+     .Home h2 {
         top: 5vh !important;
         font-size: 2.7em !important;
         width: 88vw !important;
         max-width: 80vw !important;
     }
-    .link-wrapper {
+     .link-wrapper {
         margin: 0.75em 0em !important;
     }
-    #a-tags {
+     #a-tags {
         left: 1em;
         top: 1vh;
         width: 72vw !important;
     }
-    .Home h5 {
+     .Home h5 {
         font-size: 1.05em !important;
         width: 80vw !important;
     }
 }
 
-@media only screen and (max-width: 375px) {
+ @media only screen and (max-width: 375px) {
     .Home {
         top: 10vh !important;
         width: 80vw !important;
         margin: 10vh 0em 0em 0.3em !important;
-        align-content: center;
+        -webkit-align-content: center;
+                align-content: center;
     }
     .Home h1 {
         font-size: 3em !important;
@@ -68,7 +96,7 @@
         text-align: center !important;
         line-height: 1.2em !important;
     }
-    .Home h2 {
+     .Home h2 {
         top: 5vh !important;
         font-size: 1.8em !important;
         width: 73vw !important;
@@ -76,102 +104,118 @@
         margin: 0em 2em 1em 1.2em !important;
         line-height: 1.5em !important;
     }
-    .link-wrapper {
+     .link-wrapper {
         margin: 0.75em 0em !important;
         width: 30vw !important;
     }
-    #a-tags {
+     #a-tags {
         left: 2.5em;
         top: 1vh;
         width: 78vw !important;
     }
-    .Home h5 {
+     .Home h5 {
         width: 80vw !important;
         margin-left: 1em;
         text-align: center
     }
-    .text a {
+     .text a {
         margin-left: 3em;
         font-size: 1em !important;
     }
 }
-
+ 
 @media only screen and (max-width: 768px) and (min-width: 377px) {
-  .Home {
-      top: 12vh !important;
-  }
+    .Home {
+        top: 12vh !important;
+    }
 }
-
-.Typist .Cursor {
-  display: inline-block; 
+ 
+ .Typist .Cursor {
+       display: inline-block; 
 }
-.Typist .Cursor--blinking {
-    opacity: 1;
-    animation: blink 1s linear infinite; 
+ .Typist .Cursor--blinking {
+         opacity: 1;
+        -webkit-animation: blink 1s linear infinite;
+                animation: blink 1s linear infinite; 
 }
-
-@keyframes blink {
-  0% {
-    opacity: 1; 
+ 
+ @-webkit-keyframes blink {
+       0% {
+         opacity: 1; 
   }
-  50% {
-    opacity: 0; 
+   50% {
+         opacity: 0; 
   }
-  100% {
-    opacity: 1; 
+   100% {
+         opacity: 1; 
   } 
 }
-
-
-
-#a-tags {
-    position: relative;
-    top: 1vh;
-    width: 80vw;
-}
-
-.Home-purpose, .Home-name {
-    max-width: 50vw;
-}
-
-#welcome {
-    margin-bottom: 1em;
-    max-width: 50vw;
-}
-
-.Home h1 {
-    color: rgb(236, 229, 204);
-    max-width: 50vw;
-    font-size: 4.7em;
-    text-align: left;
-}
-
-.Home h2 {
-    font-size: 3.7em;
-    max-width: 50vw;
-    text-align: left;
-    margin-bottom: 1em;
-}
-
-
-.text a {
-    text-decoration: none;
-    color: rgb(224, 218, 200);
-    font-size: 1.4em;
-    position: relative;
-    text-decoration: underline dotted rgba(255, 166, 0, 0.678);
-}
-
-.text a:hover {
-    font-style: italic;
-    text-decoration: underline rgba(255, 166, 0, 0.678);
-}
-
-
-.link-wrapper {
-    display: inline-block;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 7.9em;
+ 
+ @keyframes blink {
+       0% {
+         opacity: 1; 
   }
+   50% {
+         opacity: 0; 
+  }
+   100% {
+         opacity: 1; 
+  } 
+}
+ 
+ 
+ 
+ #a-tags {
+         position: relative;
+        top: 1vh;
+        width: 80vw;
+}
+ 
+ .Home-purpose, .Home-name {
+         max-width: 50vw;
+}
+ 
+ #welcome {
+         margin-bottom: 1em;
+        max-width: 50vw;
+}
+ 
+ .Home h1 {
+         color: rgb(236, 229, 204);
+        max-width: 50vw;
+        font-size: 4.7em;
+        text-align: left;
+}
+ 
+ .Home h2 {
+         font-size: 3.7em;
+        max-width: 50vw;
+        text-align: left;
+        margin-bottom: 1em;
+}
+ 
+ 
+ .text a {
+         text-decoration: none;
+        color: rgb(224, 218, 200);
+        font-size: 1.4em;
+        position: relative;
+        -webkit-text-decoration: underline dotted rgba(255, 166, 0, 0.678);
+                text-decoration: underline dotted rgba(255, 166, 0, 0.678);
+}
+ 
+ .text a:hover {
+         font-style: italic;
+        -webkit-text-decoration: underline rgba(255, 166, 0, 0.678);
+                text-decoration: underline rgba(255, 166, 0, 0.678);
+}
+ 
+ 
+ .link-wrapper {
+         display: inline-block;
+        margin: 0 auto;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        width: 7.9em;
+  } 

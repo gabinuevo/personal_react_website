@@ -1,19 +1,47 @@
 .SVGContainer {
-  margin-left: 7vw;
-  top: 44em;
-  position: absolute;
+    margin-left: 7vw;
+    top: 44em;
+    position: absolute;
 }
 
 
-@media only screen and (max-width: 1000px) {
-  .SVGContainer {
-    display: none;
+@media only screen and (max-width: 910px) {
+    .SVGContainer {
+      display: none;
   }
 }
 
-@media only screen and (min-width: 1800px) {
-  .SVGContainer {
-    top: 85em;
-    margin-left: 10vw;
+@media only screen and (min-width: 1550px) {
+    .SVGContainer {
+      top: 80em;
+      margin-left: 10vw;
   }
-}
+} 
+
+@media only screen and (min-width: 1500px) and (max-width: 1549px){
+  .SVGContainer {
+    top: 70em;
+    margin-left: 8vw;
+  }
+} 
+
+@media only screen and (min-width: 1250px) and (max-width: 1499px){
+  .SVGContainer {
+    top: 45em;
+    margin-left: 8vw;
+  }
+} 
+
+@media only screen and (min-width: 1021px) and (max-width: 1249px){
+  .SVGContainer {
+    top: 50em;
+    margin-left: 8vw;
+  }
+} 
+
+@media only screen and (min-width: 886px) and (max-width: 1020px){
+  .SVGContainer {
+    top: 55em;
+    margin-left: 5vw;
+  }
+} 

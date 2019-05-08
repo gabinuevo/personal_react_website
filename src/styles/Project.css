@@ -12,15 +12,35 @@
   text-decoration: double underline;
 }
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1415px) {
   .Project-Info h3 {
-    font-size: 2em;
+    font-size: 2.2em;
   }
   .Project-Info p {
     font-size: 1.5em;
   }
   .Project-Info a {
-    font-size: 1.2em;
+    font-size: 1.4em;
+  }
+  .wrapper {
+    height: 55vh !important;
+    max-height: 90vh !important;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1414px) {
+  .Project-Info h3 {
+    font-size: 1.5em;
+  }
+  .Project-Info p {
+    font-size: 1em;
+  }
+  .Project-Info a {
+    font-size: 1em;
+  }
+  .wrapper {
+    height: 38vh !important;
+    max-height: 90vh !important;
   }
 }
 

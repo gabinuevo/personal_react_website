@@ -12,7 +12,7 @@ class MyProjects extends Component {
 		return (
 			<div className="MyProjects" id="MyProjects">
 
-					<h1 className="colorAnim">My Projects</h1>
+					<h1 className="colorAnim">What I've worked on</h1>
 
 					<div className="MyProjects-Projects">
 						{projects}

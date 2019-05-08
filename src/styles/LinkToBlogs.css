@@ -1,4 +1,4 @@
-.LinkToBlogs {
+/* .LinkToBlogs {
     top: 48vh;
     position: relative;
     margin-left: 4.7em;
@@ -14,6 +14,7 @@
 @media only screen and (min-width: 1800px) {
   .LinkToBlogs {
     top: 30vh;
+    margin-bottom: 30vh !important;
   }
 }
 
@@ -52,16 +53,97 @@
     overflow: hidden; 
     font-family: 'Special Elite', cursive;
     border-right: solid 3px white;
-    animation: typewriter-text 2s steps(29,end) 1s 1 normal both,typewriter-cursor 1000ms steps(29,end) infinite;
+    animation: animated-text 2s steps(29,end) 1s 1 normal both,animated-cursor 1000ms steps(29,end) infinite;
     animation-iteration-count: 1;
 }
 
-@keyframes typewriter-text{
+@keyframes animated-text{
   from{width: 0em;}
   to{width: 8.1em;}
 }
 
-@keyframes typewriter-cursor{
+@keyframes animated-cursor{
   from{border-right-color: transparent;}
+  to{border-right-color: white;}
+} */
+
+
+.LinkToBlogs {
+      top: 44vh;
+      position: relative;
+      margin-left: 4.7em;
+      color: gainsboro;
+}
+
+@media only screen and (max-width: 1500px) {
+    .LinkToBlogs {
+      top: 10em;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+    .LinkToBlogs {
+      top: 30vh;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+      .LinkToBlogs {
+        top: 35vh;
+        margin-left: 1.8em;
+        width: 70vw !important;
+    } .LinkToBlogs h1 {
+        margin-bottom: 1em !important;
+        margin-left: 0.6em !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .LinkToBlogs h1 {
+        font-size: 1.8em;
+    }
+}
+
+.LinkToBlogs h1 {
+      margin-bottom: 3.5em;
+      margin-left: 1.5em;
+      width: 8.1em;
+}
+
+#desk {
+      position: absolute;
+      left: 94%;
+      top: 12vh;
+      opacity: 0.55;
+}
+
+.typewriter {
+      white-space: nowrap;
+      overflow: hidden; 
+      font-family: 'Special Elite', cursive;
+      border-right: solid 3px white;
+      -webkit-animation: typewriter-text 2s steps(29,end) 1s 1 normal both,typewriter-cursor 1000ms steps(29,end) infinite;
+              animation: typewriter-text 2s steps(29,end) 1s 1 normal both,typewriter-cursor 1000ms steps(29,end) infinite;
+      -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1;
+}
+
+@-webkit-keyframes typewriter-text{
+    from{width: 0em;}
+  to{width: 8.1em;}
+}
+
+@keyframes typewriter-text{
+    from{width: 0em;}
+  to{width: 8.1em;}
+}
+
+@-webkit-keyframes typewriter-cursor{
+    from{border-right-color: transparent;}
+  to{border-right-color: white;}
+}
+
+@keyframes typewriter-cursor{
+    from{border-right-color: transparent;}
   to{border-right-color: white;}
 }

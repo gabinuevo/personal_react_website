@@ -27,7 +27,7 @@ class LinkToBlogs extends Component {
 					{blogs}
 				</div>
 				<div>
-					<SVGContainer identification="typewriter" svg={deskSVG} />
+					<SVGContainer identification="desk" svg={deskSVG} />
 				</div>
 			</div>
 		);
