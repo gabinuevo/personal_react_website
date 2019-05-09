@@ -49,7 +49,7 @@
     }
 }
 
- @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     .Home {
         top: 6vh !important;
         width: 80vw !important;
