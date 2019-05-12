@@ -95,12 +95,16 @@
     } .LinkToBlogs h1 {
         margin-bottom: 1em !important;
         margin-left: 0.6em !important;
+        width: 85vw !important;
     }
 }
 
 @media only screen and (max-width: 375px) {
     .LinkToBlogs h1 {
         font-size: 1.8em;
+    }
+    .LinkToBlogs h1 {
+        width: 85vw !important;
     }
 }
 
