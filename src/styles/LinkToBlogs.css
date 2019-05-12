@@ -25,29 +25,29 @@
     } .LinkToBlogs h1 {
         margin-bottom: 1em !important;
         margin-left: 0.2em !important;
-        width: 90vw !important;
+        width: 80vw !important;
     }
     .LinkToBlogs h1 div {
         margin-bottom: 1em !important;
         margin-left: 0.2em !important;
-        width: 90vw !important;
+        width: 80vw !important;
     }
 }
 
 @media only screen and (max-width: 375px) {
     .LinkToBlogs h1 {
         font-size: 1.8em;
-        width: 90vw !important;
+        width: 80vw !important;
     }
     .LinkToBlogs h1 {
         margin-bottom: 1em !important;
         margin-left: 0.2em !important;
-        width: 90vw !important;
+        width: 80vw !important;
     }
     .LinkToBlogs h1 div {
         margin-bottom: 1em !important;
         margin-left: 0.2em !important;
-        width: 90vw !important;
+        width: 80vw !important;
     }
 }
 

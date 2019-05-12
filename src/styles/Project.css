@@ -88,6 +88,31 @@
   .fadeIn {
     width: 60vw !important;
   }
+
+
+  .Project-Info:hover, .Project-Info:active{
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(19, 19, 247);
+  }
+
+  .Project-Info:hover, .Project-Info:active a{
+    background-color: black;
+    color: white;
+    font-weight: 300 !important;
+  }
+
+  .Project-Info:hover, .Project-Info:active h3{
+    background-color: black;
+    color: rgb(62, 62, 241);;
+    font-weight: 800 !important;
+  }
+
+  .Project-Info:hover, .Project-Info:active p{
+    background-color: black;
+    color: rgb(19, 19, 247);;
+    font-weight: 600 !important;
+  }
 }
 
 @media only screen and (min-width: 376px) and (max-width: 440px) {
@@ -112,6 +137,29 @@
 
   .fadeIn {
     width: 60vw !important;
+  }
+    .Project-Info:hover, .Project-Info:active{
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(19, 19, 247);
+  }
+
+  .Project-Info:hover, .Project-Info:active a{
+    background-color: black;
+    color: white;
+    font-weight: 300 !important;
+  }
+
+  .Project-Info:hover, .Project-Info:active h3{
+    background-color: black;
+    color: rgb(62, 62, 241);;
+    font-weight: 800 !important;
+  }
+
+  .Project-Info:hover, .Project-Info:active p{
+    background-color: black;
+    color: rgb(19, 19, 247);;
+    font-weight: 600 !important;
   }
 }
 @media only screen and (max-width: 769px) and (min-width: 441px) {
@@ -138,6 +186,29 @@
   }
   .Project-Info a {
     font-size: 1.4em;
+  }
+    .Project-Info:hover, .Project-Info:active{
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(19, 19, 247);
+  }
+
+  .Project-Info:hover, .Project-Info:active a{
+    background-color: black;
+    color: white;
+    font-weight: 300 !important;
+  }
+
+  .Project-Info:hover, .Project-Info:active h3{
+    background-color: black;
+    color: rgb(62, 62, 241);;
+    font-weight: 800 !important;
+  }
+
+  .Project-Info:hover, .Project-Info:active p{
+    background-color: black;
+    color: rgb(19, 19, 247);;
+    font-weight: 600 !important;
   }
 }
 
