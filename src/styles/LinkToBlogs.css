@@ -22,10 +22,15 @@
         top: 35vh;
         margin-left: 1.8em;
         width: 70vw !important;
-    } .LinkToBlogs h1 div {
+    } .LinkToBlogs h1 {
         margin-bottom: 1em !important;
         margin-left: 0.6em !important;
-        width: 85vw !important;
+        width: 90vw !important;
+    }
+    .LinkToBlogs h1 div {
+        margin-bottom: 1em !important;
+        margin-left: 0.6em !important;
+        width: 90vw !important;
     }
 }
 
@@ -34,7 +39,14 @@
         font-size: 1.8em;
     }
     .LinkToBlogs h1 {
-        width: 85vw !important;
+        margin-bottom: 1em !important;
+        margin-left: 0.6em !important;
+        width: 90vw !important;
+    }
+    .LinkToBlogs h1 div {
+        margin-bottom: 1em !important;
+        margin-left: 0.6em !important;
+        width: 90vw !important;
     }
 }
 
