@@ -20,7 +20,7 @@ class AboutMe extends Component {
         classNameNotInView="vis-hidden"
         classNameInView="animated fadeIn">
         <div className="AboutMe" id="AboutMe" ref={this.ref}>
-          <h3> I am a React Developer based out of San Francisco </h3>
+          <h3> I am a Full Stack Developer based out of San Francisco </h3>
           <p>
             I am passionate about building things that reside on the web. At any given time, I am probably thinking of apps that provide intuitive and beautiful user interfaces with fast and efficient backends.
           </p>
