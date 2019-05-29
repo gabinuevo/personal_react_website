@@ -6,9 +6,9 @@ export const blogInfo = {
     link: "https://medium.com/@balicas.gb/reflections-from-the-bootcamp-c72f42e8742f"
   },
   blog2: {
-    title: "First week of company projects",
-    description: "--The big lesson from a week of working a codebase used in a corporate setting",
-    intro: "Last week was the first week where everything that I worked on was for a company codebase. [...] I had my first pull request approved, which increased the speed of the several pages in the application by 90%.",
-    link: "https://medium.com/@balicas.gb/first-week-of-company-projects-49c258ad62ef"
+    title: "A gentle intro to SVGs, plus tricks for inserting them in your React app",
+    description: "--a summary of everything I learned about SVGs when building this application.",
+    intro: "SVGs are not new to the web. They have been around since late 2001, and have gone through 3 different modes to date. I will go over 2 of them in this post.",
+    link: "https://medium.com/@balicas.gb/a-gentle-intro-to-svgs-plus-tricks-for-inserting-them-in-your-react-app-be6ebfdbcb50"
   }
 }
