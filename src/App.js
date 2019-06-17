@@ -11,6 +11,10 @@ import './styles/App.css';
 
 class App extends Component {
   render() {
+    var scale = 'scale(100%)';
+    document.body.style.webkitTransform = scale;    // Chrome, Opera, Safari
+    document.body.style.msTransform = scale;       // IE 9
+    document.body.style.transform = scale; 
     return (
       <div className="App">
         <NavBar />

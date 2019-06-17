@@ -8,13 +8,12 @@ import './styles/AboutMe.css';
 
 class AboutMe extends Component {
   static defaultProps = {
-    tech: ["React", "Redux", "Javascript", "Python", "Express", "Flask", "SQL", "SQLAlchemy", "npm", "Jest", "PostgreSQL", "Django"]
+    tech: ["React", "Redux", "Saga", "Javascript", "Python", "Express", "Flask", "SQL", "SQLAlchemy", "npm", "Jest", "PostgreSQL", "git", "Styled-Components"]
   }
 
 
   render() {
     const labels = this.props.tech.map((l) => <Label label={l} key={l} />)
-
     return (
       <InViewMonitor
         classNameNotInView="vis-hidden"
