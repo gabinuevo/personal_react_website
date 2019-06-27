@@ -7,17 +7,17 @@ export const projectInfo = {
     github: null
   },
   proj2: {
+    title: "Jobly",
+    description: `A fullstack platform for applying to jobs.`,
+    technologies: "Built with React, Redux, CSS, Express, Bcrypt, and PostgreSQL.",
+    link: "https://frontend-jobly.herokuapp.com",
+    github: "https://github.com/gabinuevo/fullstack_jobly"
+  },
+  proj3: {
     title: "MicroBlog",
     description: "Inspired by wordpress and a love for blogging.",
-    technologies: "Built with React, Redux and PostgreSQL.",
+    technologies: "Built with React, Redux, CSS, and PostgreSQL.",
     link: null,
     github: "https://github.com/gabinuevo/microblog/tree/master"
   },
-  proj3: {
-    title: "Flower Puzzle",
-    description: `A spin on the classic game “Light’s Out”. Gauranteed winnable.`,
-    technologies: "Built with React and vanilla CSS.",
-    link: "https://gabinuevo.github.io/flower-puzzle/",
-    github: "https://gabinuevo.github.io/flower-puzzle/"
-  }
 }
